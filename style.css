@@ -1,0 +1,73 @@
+table#textTable tbody tr td input {
+  width: 47px;
+  height: 47px;
+  font-size: 24px;
+  border-radius: 43px;
+  margin-top: 11px;
+  margin-right: 2px;
+  background: #efefef;
+  box-shadow: 2px -2px 3px #ad9f9f, 2px 3px 6px #c1b3b3;
+  border: none;
+  outline: none;
+  margin-right: 6px;
+  margin-bottom: 3px;
+}
+input.textView {
+  width: 215px;
+  margin-left: 3px;
+  height: 43px;
+  border: none;
+  background: #efefef;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+  font-size: 23px;
+  border-radius: 20px;
+  outline: none;
+}
+section.calculator {
+  width: 248px;
+  height: 428px;
+  background: #efefef;
+  margin: auto;
+  margin-top: 86px;
+  border-top-right-radius: 43px;
+  border-bottom-left-radius: 43px;
+  box-shadow: -2px 0px 0px #00000066, 9px 7px 4px -8px black;
+}
+body {
+  background: white;
+}
+form {
+  margin: auto;
+  width: 228px;
+}
+table#textTable tbody tr td input:hover {
+  box-shadow: inset 2px -2px 3px #ad9f9f, inset 2px 3px 6px #c1b3b3;
+}
+.cal {
+  width: 260px;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background: #ffffff;
+  font-family: Andalus;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  border-bottom-left-radius: 45px;
+  border-top-right-radius: 45px;
+  margin-bottom: -47px;
+  margin-top: 60px;
+  box-shadow: inset -2px 0px 11px #efefef, inset 2px 2px 11px #eeeeee;
+  text-shadow: 2px 2px 1px #353333;
+  color: #757575;
+}
+input.inCl {
+  color: red;
+}
+table#textTable tbody tr td input:active {
+  background: #b3b3b3;
+}

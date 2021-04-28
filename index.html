@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculetor :: created by Raihan hosen</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+    <div class="cal">Calculetor</div>
+
+    <section class="calculator">
+      <form action="" mathood="get" name="form">
+        <input class="textView" name="textView" />
+        <table id="textTable">
+          <tr>
+            <td>
+              <input class="inCl"
+                type="button"
+                value="C"
+                onclick="document.form.textView.value = '' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="+/-"
+                onclick="document.form.textView.value += '+/-' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="/"
+                onclick="document.form.textView.value += '/' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="x"
+                onclick="document.form.textView.value += '*' "
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="7"
+                onclick="document.form.textView.value += '7' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="8"
+                onclick="document.form.textView.value += '8' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="9"
+                onclick="document.form.textView.value += '9' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="-"
+                onclick="document.form.textView.value += '-' "
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="4"
+                onclick="document.form.textView.value += '4' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="5"
+                onclick="document.form.textView.value += '5' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="6"
+                onclick="document.form.textView.value += '6' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="+"
+                onclick="form.textView.value += '+' "
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="1"
+                onclick="document.form.textView.value += '1' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="2"
+                onclick="document.form.textView.value += '2' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="3"
+                onclick="document.form.textView.value += '3' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="%"
+                onclick="document.form.textView.value =+ '%' "
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="."
+                onclick="document.form.textView.value += '.' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="0"
+                onclick="document.form.textView.value += '0' "
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="00"
+                onclick="document.form.textView.value += '00' "
+              />
+            </td>
+            <td>
+              <input
+                class="inCl"
+                type="button"
+                value="="
+                onclick="document.form.textView.value = eval(form.textView.value) "
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+  </body>
+</html>
